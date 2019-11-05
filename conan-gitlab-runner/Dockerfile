@@ -114,3 +114,4 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 RUN python2.7 get-pip.py
 RUN pip2 install python-magic
 RUN pip2 install wget
+RUN pip2 install requests
